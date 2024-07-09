@@ -11,14 +11,13 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "col1": "/collection1.svg",
-        "col2": "/collection2.svg",
       },
       colors: {
         "ship-green": "#557C72",
         "main-green": "#012A1F",
         "mint-green": "#E6EBEA",
-        "mint2": "#B1C2BE"
+        "mint2": "#B1C2BE",
+        "ragrey": "#B1C2BE"
       }
     },
   },
