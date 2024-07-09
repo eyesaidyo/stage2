@@ -1,6 +1,6 @@
 const Nav= ()=>{
     return (
-        <div className="flex font-semibold items-center justify-around p-2">
+        <div className="lg:flex font-semibold items-center lg:justify-around p-2 hidden ">
             <img src={"../../logo.svg"} />
             <p>Home</p>
             <p>About Us</p>

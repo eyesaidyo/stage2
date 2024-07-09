@@ -1,9 +1,7 @@
 const ItemCard=({img, title, detail})=>{
     return (
-        <div>
-            <div>
-                <img src={img}/>
-            </div>
+        <div className="md:text-center max-w-[296px] mx-auto">
+            <img src={img}/>
             <div className="p-2 flex flex-col gap-4">
             <p className="font-semibold text-[22px]">{title}</p>
             <p>{detail}</p>
